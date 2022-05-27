@@ -20,7 +20,7 @@ def on_pick(event):
 # make data
 x = np.linspace(0, 10, 1000)
 y0 = 4 + 2 * np.sin(2 * x) #sine_0 data
-y1 = 4 + 3 * np.sin(4 * x) #sine_1 data
+y1 = 4 + 2.8 * np.sin(4 * x) #sine_1 data
 
 # plot
 fig, ax = plt.subplots()
